@@ -2,7 +2,7 @@
 # print(demo)#列表推导式
 #
 # key_1 = ['比赛', '友谊']
-# value_2 = [1, 2]
+# value_2 = [num, 2]
 # data = {key_1[i]:value_2[i] for i in range(len(key_1))}
 # print(data)
 key_1 = ['zhao', 'chong', 'ni', 'hao']#字典推导式

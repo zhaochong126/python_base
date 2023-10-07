@@ -17,7 +17,7 @@ continue：退出本次循环
 # a = 0
 # num = 0
 # while a < 10:
-#     a += 1
+#     a += num
 #     num += a
 #     # print(num)
 #     print(a)
@@ -57,7 +57,7 @@ continue：退出本次循环
 # sum = 0
 # while a < 101:
 #     sum += a
-#     a += 1
+#     a += num
 # print(sum)
 
 #九九乘法表

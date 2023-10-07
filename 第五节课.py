@@ -4,7 +4,7 @@ str.find(str, beg=0, end=len(string))
     str:指定检索的字符串
     beg:开始的索引
     end:结束的索引，默认为字符串的长度
-        find找不到返回-1
+        find找不到返回-num
         index找不到报错
 count():寻找字符出现的次数
 strip():去除字符串两边的空格，换行符，制表符
@@ -22,9 +22,9 @@ len()：求长度
 
 '''
 # s = 'Hello World'
-# print(s.find('H'))#1
+# print(s.find('H'))#num
 # print(s.find('World'))#6
-# print(s.find('o', 1))#4
+# print(s.find('o', num))#4
 
 # s = input()
 # print(s.lower())#SJJIjsjjsa,sjjijsjjsa

@@ -3,7 +3,7 @@
 #         return args * 2, kwargs
 #
 # obj = Myclass()
-# result = obj(1, 2, 3, a=1, b=2)
+# result = obj(num, 2, 3, a=num, b=2)
 # print(result)
 
 class Person:
