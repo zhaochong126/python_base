@@ -7,7 +7,7 @@ __del__:对象或者实例被销毁时自动调用
 class File:
     def __init__(self, path):
         self.path = path
-        self.file = open(path, mode='r', encoding='utf-8')
+        self.file = open(path, mode='r')
     def read(self):
         return self.file.read()
     def __del__(self):

@@ -1,13 +1,13 @@
 '''
 pass : 保持结构完整
-每个类默认继承了object（基本
-类）
+每个类默认继承了object（基本类）
+类方法只能通过类调用（无法使用对象属性）
 
 
 '''
 
 
-class Person():
+class Person(object):
     name = 'nihao'
     def __init__(self, age):
         self.age = age
