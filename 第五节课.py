@@ -6,6 +6,8 @@ str.find(str, beg=0, end=len(string))
     end:结束的索引，默认为字符串的长度
         find找不到返回-num
         index找不到报错
+str.rfind():从右往左找，返回的值是从左往右的值
+str.index():找不到会报错
 count():寻找字符出现的次数
 strip():去除字符串两边的空格，换行符，制表符
 startswith():以什么开始，返回值为布尔值
@@ -36,20 +38,18 @@ len()：求长度
 # arr = ['hello', 'ni', 'hao']
 # print(' '.join(arr))#hello ni hao
 
-# l = 'h e l l o w o r l d'
-# a = l.split(' ')
-# print(a)
-list1 = ['h', 'e', 'l', 'l', 'o', ',', 'w', 'o', 'r', 'l', 'd']
-
-print(''.join(list1))
-
-list2 = ['abs', '左手', '种植通左手', '湖南人']
-for i in list2:
-    if len(i)>3:
-        print(i)
-    else:
-        continue
-
+# l = 'h e l l o ， w o r l d'
+# a = l.split()
+# # print(a)
+# print(''.join(a))
+# #
+# list2 = ['abs', '左手', '种植通左手', '湖南人']
+# for i in list2:
+#     if len(i)>3:
+#         print(i)
+#     else:
+#         continue
+#
 list3 = ['a', 'e', 'i', 'o', 'u']
 list4 = []
 str = input()
@@ -63,3 +63,32 @@ print('e:', list4.count('e'))
 print('i:', list4.count('i'))
 print('o:', list4.count('o'))
 print('u:', list4.count('u'))
+
+# lst = ['abc','daa','dada']
+# print(''.join(lst))
+
+# str = '   hello world'
+# print(str.find('hello'))
+# print(str.strip())
+# print(str.startswith(' '))
+# print(str.index('hello'))
+# print(str.endswith('world'))
+
+# str = ('da'
+#        ''
+#        'ASs')
+# print(str.lower())
+# print(str.upper())
+# str = 'dasdasd'
+# print(str.replace('s','操'))
+# s = 'hello world'
+# print(s[0])
+# print(s[-2])
+# print(s[0:3])
+# print(s[0:-1])
+# print(s[1:-3])
+# print(s[::3])
+# print(s[1::2])
+# print(s[::-1])
+# print(s[-5:])
+# print(s[-4:])

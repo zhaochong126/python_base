@@ -16,14 +16,14 @@ set.clear():清空集合
 del:删除集合
 
 '''
-# car ={'zhao':1, 'chong':2}
-# print(car.get('zhao'))
-# # print(car.get('zhoa'))
-# list1 = car.items()
-# list2 = car.keys()
-# list3 = car.values()
-#
-# print(list1)
+car ={'zhao':1, 'chong':2}
+print(car.get('zhao'))
+# print(car.get('zhoa'))
+list1 = car.items()
+list2 = car.keys()
+list3 = car.values()
+
+print(list1)
 # print(list(list1))
 # print(list2)
 # print(list3)
@@ -36,17 +36,17 @@ del:删除集合
 # for i in car.items():  #('zhao', 1)  ('chong', 2)，放在元组中
 #     print(i)
 
-set1 = {1,3,4,3,4,5,6,2,1,2}
-print(set1)#集合本身是无序的，{1, 2, 3, 4, 5, 6}
-
-set1.update('10')# {1, 2, 3, 4, 5, 6, '1', '0'}
-set1.update((13, 43, 10))# {1, 2, 3, 4, 5, 6, 10, 43, 13, '0', '1'}
-
-print(set1)
-set1.remove('1')
-set1.remove(1)
-print(set1)
-set1.discard('100')
-print(set1)
-set1.clear()
-print(set1)#set()
+# set1 = {1,3,4,3,4,5,6,2,1,2}
+# print(set1)#集合本身是无序的，{1, 2, 3, 4, 5, 6}
+#
+# set1.update('10')# {1, 2, 3, 4, 5, 6, '1', '0'}
+# set1.update((13, 43, 10))# {1, 2, 3, 4, 5, 6, 10, 43, 13, '0', '1'}
+#
+# print(set1)
+# set1.remove('1')
+# set1.remove(1)
+# print(set1)
+# set1.discard('100')
+# print(set1)
+# set1.clear()
+# print(set1)#set()
