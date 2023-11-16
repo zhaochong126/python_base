@@ -54,7 +54,7 @@ print('{0}{1}{2}'.format(str_1,str_2,str_3))
 #使用format给变量重新命名进行字符串连接
 print('{l1}{l2}{l3}'.format(l1='他',l2='真帅',l3='是吗'))
 
-#使用f-string直接连接
+#使用f-format直接连接
 str_1 = '他'
 str_2 = '真帅'
 str_3 = '是吗？'

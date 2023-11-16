@@ -72,7 +72,7 @@ class Son(Father):
 
 
 zhao = Son('zhao')
-Father.run(zhao)
+# Father.run(zhao)
 Son.bark(zhao)
 zhao.run()
 

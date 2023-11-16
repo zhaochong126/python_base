@@ -16,3 +16,4 @@ class File:
 
 file = File('test.txt')
 print(file.read())
+# print(dir(File))

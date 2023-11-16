@@ -8,30 +8,31 @@ vars()：返回一个字典，包含person对象所有实例变量和其对应�
 '''
 
 
-# class Demo():
-#     def __init__(self, name, age):
-#         self.__name = name
-#         self.__age = age
-#
-#     def get_attribute(self):
-#         return self.__name
-
-# demo1 = Demo('zhao', 18)
-# print(demo1.get_attribute())#定义一个函数来获得私有属性
-
-
 class Demo():
     def __init__(self, name, age):
         self.__name = name
         self.__age = age
 
+    def get_attribute(self):
+        return self.__name
 
-demo_obj = Demo('nihao', 18)
-print(dir(demo_obj))
-print(demo_obj._Demo__age)#私有属性
-demo_obj._Demo__age = 10#修改私有属性
-print(demo_obj._Demo__age)
-print(vars(demo_obj))
+demo1 = Demo('zhao', 18)
+
+print(demo1.get_attribute())#定义一个函数来获得私有属性
+
+
+# class Demo():
+#     def __init__(self, name, age):
+#         self.__name = name
+#         self.__age = age
+#
+#
+# demo_obj = Demo('nihao', 18)
+# print(dir(demo_obj))
+# print(demo_obj._Demo__age)#私有属性
+# demo_obj._Demo__age = 10#修改私有属性
+# print(demo_obj._Demo__age)
+# print(vars(demo_obj))
 
 
 #['_Demo__age', '_Demo__name', '__class__', '__delattr__', '__dict__',
